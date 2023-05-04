@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@wdio/browserstack-service": "^8.8.8",
+    "@wdio/cli": "^8.8.8",
+    "@wdio/local-runner": "^8.8.8",
+    "@wdio/mocha-framework": "^8.8.7",
+    "@wdio/spec-reporter": "^8.8.7",
+    "chromedriver": "^112.0.1",
+    "axios": "^1.4.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "chrome": "wdio run ./conf/chrome.conf.js",
+    "single": "wdio run ./conf/single.conf.js",
+    "parallel": "wdio run ./conf/parallel.conf.js",
+    "mobile": "wdio run ./conf/mobile.conf.js",
+    "local": "wdio run ./conf/local.conf.js",
+    "fail": "wdio run ./conf/fail.conf.js",
+    "observability": "wdio run ./conf/observability.conf.js",
+    "appium": "wdio run ./conf/appium.conf.js"
+  }
+}
