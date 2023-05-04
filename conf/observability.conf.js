@@ -13,7 +13,15 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     services: [
-        ['browserstack']
+        [
+            'browserstack',{
+            testObservability: true,
+            testObservabilityOptions: {
+                projectName: "WDIO Observability",
+                buildName: "WDIO Observability demo"
+            },
+        }
+    ]
     ],
     commonCapabilities: {
         'bstack:options': {
