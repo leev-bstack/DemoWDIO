@@ -11,14 +11,19 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     services: [
-        [
-        'browserstack',
-        {
-            browserstackLocal:true,
-            opts: {
-            localIdentifier: 'wdio-demo'
+            [
+                'browserstack',
+                {
+                testObservability: true,
+                testObservabilityOptions: {
+                    projectName: "WDIO Demo",
+                    buildName: "WDIO Local demo"
+                },
+                browserstackLocal:true,
+                opts: {
+                localIdentifier: 'wdio-demo'
+                }
             }
-        }
         ]
     ],
     commonCapabilities: {

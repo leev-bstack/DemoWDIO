@@ -19,10 +19,17 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     services: [
-        [
-            'browserstack',
-            {app: appName || appPath}
-    ],
+      [
+        'browserstack',
+        {
+          testObservability: true,
+          testObservabilityOptions: {
+            projectName: "WDIO Demo",
+            buildName: "WDIO Appium demo"
+          },
+        app: appName || appPath
+        }
+      ],
     ],
     commonCapabilities: {
         'bstack:options': {
