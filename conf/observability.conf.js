@@ -28,7 +28,7 @@ exports.config = {
             buildName: 'WDIO Observability demo ' + date.toLocaleString(),
             projectName: 'WDIO Observability',
             networkLogs: true,
-            consoleLogs
+            consoleLogs: 'errors'
         }
       },
     capabilities: [
