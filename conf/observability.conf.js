@@ -20,14 +20,15 @@ exports.config = {
                 projectName: "WDIO Observability",
                 buildName: "WDIO Observability demo"
             },
-        }
-    ]
+            }
+        ]
     ],
     commonCapabilities: {
         'bstack:options': {
             buildName: 'WDIO Observability demo ' + date.toLocaleString(),
             projectName: 'WDIO Observability',
-            networkLogs: true
+            networkLogs: true,
+            consoleLogs
         }
       },
     capabilities: [

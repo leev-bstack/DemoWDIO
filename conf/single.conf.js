@@ -26,6 +26,7 @@ exports.config = {
             buildName: 'WDIO Single demo ' + date.toLocaleString(),
             projectName: 'WDIO Demo',
             networkLogs: true,
+            consoleLogs: error
         }
       },
     capabilities: [
