@@ -16,7 +16,7 @@ exports.config = {
         acceptInsecureCerts: true
 
     }],
-    logLevel: 'info',
+    logLevel: 'error',
 
     bail: 0,
     baseUrl: 'https://www.browserstack.com',
