@@ -5,7 +5,7 @@ exports.config = {
     key: process.env.BROWSERSTACK_ACCESS_KEY,
 
     specs: [
-        '../tests/specs/parallel/parallel*.js',
+        '../tests/specs/parallel/*.js',
         '../tests/specs/fail.js',
         '../tests/specs/flakey.js'
     ],
