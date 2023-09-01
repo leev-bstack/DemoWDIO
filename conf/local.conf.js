@@ -21,7 +21,7 @@ exports.config = {
                 },
                 browserstackLocal:true,
                 opts: {
-                localIdentifier: 'wdio-demo'
+                forceLocal: 'true'
                 }
             }
         ]
