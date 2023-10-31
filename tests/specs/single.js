@@ -1,7 +1,7 @@
 const { Key } = require('webdriverio')
 
-describe('BrowserStack', () => {
-    it('should search for Data Centers', async () => {
+describe('Google', () => {
+    it('should search for BrowserStack', async () => {
         //go to Google
         await browser.maximizeWindow()
         await browser.url(`https://www.google.com`)

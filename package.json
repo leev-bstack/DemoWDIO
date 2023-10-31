@@ -11,13 +11,13 @@
     "demo"
   ],
   "devDependencies": {
-    "@wdio/browserstack-service": "^8.8.8",
+    "@wdio/browserstack-service": "^8.16.2",
     "@wdio/cli": "^8.8.8",
     "@wdio/local-runner": "^8.8.8",
     "@wdio/mocha-framework": "^8.8.7",
     "@wdio/spec-reporter": "^8.8.7",
     "axios": "^1.4.0",
-    "chromedriver": "^113.0.0",
+    "chromedriver": "^116.0.0",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
