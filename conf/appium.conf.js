@@ -35,7 +35,8 @@ exports.config = {
         'bstack:options': {
             buildName: 'WDIO Appium demo ' + date.toLocaleString(),
             projectName: 'WDIO Demo',
-            networkLogs: true
+            networkLogs: true,
+            appProfiling: true
         }
       },
     capabilities: [

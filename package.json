@@ -17,7 +17,7 @@
     "@wdio/mocha-framework": "^8.8.7",
     "@wdio/spec-reporter": "^8.8.7",
     "axios": "^1.4.0",
-    "chromedriver": "^116.0.0",
+    "chromedriver": "^120.0.1",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
