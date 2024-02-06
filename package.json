@@ -29,6 +29,7 @@
     "local": "wdio run ./conf/local.conf.js",
     "fail": "wdio run ./conf/fail.conf.js",
     "observability": "wdio run ./conf/observability.conf.js",
-    "appium": "wdio run ./conf/appium.conf.js"
+    "appium": "wdio run ./conf/appium.conf.js",
+    "a11y": "wdio run ./conf/a11y.conf.js"
   }
 }
